@@ -19,7 +19,7 @@
 
 'use strict';
 
-require('./require-main');
+require('/require-main');
 
 var nconf = require('nconf');
 nconf.argv().env({
